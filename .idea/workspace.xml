@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Diagonal Sum">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/TransposeOfMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/searchInSortedMatrix.java" afterDir="false" />
+    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Arrays3">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FirstOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/IsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintDec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/printIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/isPallindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +47,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SpiralMatrix">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BinarySearch" />
+  <component name="RunManager" selected="Application.FirstOccurence">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MajorityElement" />
+    <configuration name="FirstOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.FirstOccurence" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MaxProductSubArray" />
+    <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.IsSorted" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.PrintSubArrays" />
+    <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.factorial" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SpiralMatrix" />
+    <configuration name="printIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.printIncreasing" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.PrintSubArrays" />
-        <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MaxProductSubArray" />
+        <item itemvalue="Application.FirstOccurence" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.IsSorted" />
+        <item itemvalue="Application.factorial" />
+        <item itemvalue="Application.printIncreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689463647637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Arrays3">
+      <created>1689468855691</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689468855691</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +217,18 @@
     <MESSAGE value="Array 1" />
     <MESSAGE value="Array 2" />
     <MESSAGE value="Diagonal Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diagonal Sum" />
+    <MESSAGE value="Arrays3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA$Pattern4.ic" NAME="Pattern4 Coverage Results" MODIFIED="1688838607521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
