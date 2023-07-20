@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Arrays3">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FirstOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/IsSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintDec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/printIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/StringCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/isPallindrome.java" afterDir="false" />
+    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Reccursion 1">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/LastOccurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/tillingProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstOccurence">
+  <component name="RunManager" selected="Application.tillingProblem">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Fibonacci" />
       <module name="DSA" />
@@ -74,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.IsSorted" />
+    <configuration name="LastOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.LastOccurance" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.factorial" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Power" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.printIncreasing" />
+    <configuration name="tillingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.tillingProblem" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tillingProblem" />
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.LastOccurance" />
         <item itemvalue="Application.FirstOccurence" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.IsSorted" />
-        <item itemvalue="Application.factorial" />
-        <item itemvalue="Application.printIncreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689468855691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reccursion 1">
+      <created>1689790713097</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689790713097</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +219,8 @@
     <MESSAGE value="Array 2" />
     <MESSAGE value="Diagonal Sum" />
     <MESSAGE value="Arrays3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays3" />
+    <MESSAGE value="Reccursion 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reccursion 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
