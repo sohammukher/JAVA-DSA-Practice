@@ -190,6 +190,23 @@ public class LinkedList {
 
      }
 
+     public static void removeFromMiddle(Node head, int pos){
+
+        Node prev = null;
+        Node current = head;
+
+        int i = 0;
+
+        while (i < pos){
+            prev= current;
+            current=current.next;
+            i++;
+        }
+
+        prev.next = prev.next.next;
+
+     }
+
 
     public static void main(String[] args) {
 
@@ -211,7 +228,10 @@ public class LinkedList {
 //        System.out.println("Palindrome Check");
 //        System.out.println(checkPalindrome(head));;
 
+        removeFromMiddle(head,3);
 
-        System.out.println(findInLL(head,3));
+        printLL();
+
+//        System.out.println(findInLL(head,3));
     }
 }
