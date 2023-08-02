@@ -110,6 +110,87 @@ public class LinkedList {
     }
 
 
+    public static Node findMiddle(Node head){
+        Node slow  = head;
+
+        Node  fast = head;
+
+        while(fast!= null && fast.next != null){ // remember this condition
+
+            slow = slow.next;
+            fast= fast.next.next;
+        }
+
+        return slow;
+    }
+
+    public static boolean checkPalindrome(Node head){
+
+        // Check if Linked List is Empty or just having one Node
+        if(head == null || head.next == null){
+            return true; // this case is always palindrome
+        }
+
+        // find middle element
+        Node middle = findMiddle(head);
+
+        // Reverse from Middle
+//        3 Variables
+        Node prev = null;
+        Node curr = middle; // Reverse from Middle
+        Node next = null;
+
+        while(curr != null){
+            // Store val of next node for future reference.
+            next = curr.next;
+
+            // Actual Reverse Step
+            curr.next = prev;
+
+            // Increment
+            prev = curr;
+            curr = next;
+
+        }
+
+        Node rightHead = prev;
+        Node leftHead = head;
+
+        // Check the Left and Right Sides
+        while (rightHead != null ){// At the middle right's prev points to null
+            System.out.println(rightHead.data +" "+leftHead.data);
+            if(rightHead.data != leftHead.data){
+                return false;
+            }
+            // increment
+            rightHead = rightHead.next;
+            leftHead = leftHead.next;
+        }
+        return true;
+    }
+
+    // Find in LL
+     public static int findInLL(Node head, int X){
+        // Not Found Base Case
+        if(head == null){
+            return -1;
+        }
+
+        int foundAfterCurrent =  findInLL(head.next,X);
+        if(foundAfterCurrent == -1){
+            return -1;
+        }
+        else if(head.data == X){
+            System.out.println("Value Found ");
+            return 0;
+        }else{
+            System.out.println("Found at Index");
+            return foundAfterCurrent+1;
+        }
+
+     }
+
+
     public static void main(String[] args) {
 
 
@@ -117,13 +198,20 @@ public class LinkedList {
 
         ll.addLast(1);
         ll.addLast(2);
+        ll.addLast(2);
+        ll.addLast(1);
         ll.addLast(3);
-        ll.addLast(4);
 
-        ll.addMiddle(9,2);
+
 
         printLL();
 
         System.out.println("\n\n"+"Size of LL is "+ll.size);
+
+//        System.out.println("Palindrome Check");
+//        System.out.println(checkPalindrome(head));;
+
+
+        System.out.println(findInLL(head,3));
     }
 }
