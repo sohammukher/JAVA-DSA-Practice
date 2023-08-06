@@ -197,7 +197,7 @@ public class LinkedList {
 
         int i = 0;
 
-        while (i < pos){
+        while (i < pos ){
             prev= current;
             current=current.next;
             i++;
@@ -208,30 +208,70 @@ public class LinkedList {
      }
 
 
-    public static void main(String[] args) {
+     public static void removeNfromEnd(int N,Node head){
+
+         System.out.println("Length "+size);
+
+        int pos = (size - N);
+
+         System.out.println("Position is "+pos);
+
+        // Remove Head
+        if(N == size){
+            head = head.next;
+        }
 
 
-        LinkedList ll = new LinkedList();
 
-        ll.addLast(1);
-        ll.addLast(2);
-        ll.addLast(2);
-        ll.addLast(1);
-        ll.addLast(3);
+        Node temp = head;
+        int i = 0;
+        while (i < pos-2 && temp.next != null){
+            temp = temp.next;
+            i++;
+        }
+
+        temp.next = temp.next.next;
+
+        return;
+     }
 
 
 
-        printLL();
 
-        System.out.println("\n\n"+"Size of LL is "+ll.size);
+      public static void main(String[] args) {
+
+
+          LinkedList ll = new LinkedList();
+
+          ll.addLast(1);
+          ll.addLast(2);
+          ll.addLast(2);
+          ll.addLast(1);
+          ll.addLast(3);
+
+
+          printLL();
+
+          System.out.println("\n\n" + "Size of LL is " + ll.size);
 
 //        System.out.println("Palindrome Check");
 //        System.out.println(checkPalindrome(head));;
 
-        removeFromMiddle(head,3);
+//        removeFromMiddle(head,3);
 
-        printLL();
+          // Remove N from END
+
+          printLL();
 
 //        System.out.println(findInLL(head,3));
-    }
-}
+
+
+          // Remove N from END
+
+          removeNfromEnd(2, head);
+
+          printLL();
+
+
+      }
+  }
