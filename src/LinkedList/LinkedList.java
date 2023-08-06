@@ -235,19 +235,93 @@ public class LinkedList {
         return;
      }
 
+//------------------------------------
+public static Node mergeSortLL(Node head){
+
+        if(head == null || head.next== null){
+            return head;
+        }
+
+        Node Mid = findMid(head);
+
+    Node rightHead = Mid.next;
+
+        //Breaking the LL
+        Mid.next = null;
+
+        Node head1 = mergeSortLL(head);
+        Node head2 = mergeSortLL(rightHead);
+
+        return merge(head1,head2);
+
+}
+
+public static Node merge(Node head1, Node head2){
+
+    System.out.println("Merge Called");
+
+        Node mergedLL = new Node(-1);
+
+        Node temp = mergedLL;
+
+        while (head1!= null && head2 != null){
+            System.out.println("Comparing "+head1.data+" "+head2.data);
+
+            if(head1.data <=  head2.data){
+                System.out.println("Inserted "+head1.data);
+                temp.next=head1;
+                head1 = head1.next;
+                temp = temp.next;
+            }else{
+                System.out.println("Inserted "+head2.data);
+
+                temp.next=head2;
+                head2 = head2.next;
+                temp = temp.next;
+            }
+
+        }
 
 
+    while (head1 != null){
+        temp.next=head1;
+        head1 = head1.next;
+        temp = temp.next;
+    }
 
+    while (head2 != null){
+        temp.next=head2;
+        head2 = head2.next;
+        temp = temp.next;
+    }
+
+        return mergedLL.next;
+}
+    private static Node findMid(Node head) {
+
+        Node slow = head;
+        Node fast = head.next;
+
+        while(fast != null && fast.next !=null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+
+    }
+
+
+    // ------------------------
       public static void main(String[] args) {
 
 
           LinkedList ll = new LinkedList();
 
-          ll.addLast(1);
-          ll.addLast(2);
-          ll.addLast(2);
-          ll.addLast(1);
+          ll.addLast(4);
           ll.addLast(3);
+          ll.addLast(2);
+          ll.addLast(1);
 
 
           printLL();
@@ -261,15 +335,15 @@ public class LinkedList {
 
           // Remove N from END
 
-          printLL();
 
 //        System.out.println(findInLL(head,3));
 
 
           // Remove N from END
 
-          removeNfromEnd(2, head);
+//          removeNfromEnd(2, head);
 
+           head = mergeSortLL(head);
           printLL();
 
 
