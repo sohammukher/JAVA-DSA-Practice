@@ -311,6 +311,58 @@ public static Node merge(Node head1, Node head2){
 
     }
 
+//    ----------------------------------
+
+    public static void zigZag(Node head){
+
+        Node middle  = findMid(head);
+
+        // Reverse Second Half
+
+        Node secondHalfHead = middle.next;
+
+        // Disconnecting Second Half
+        middle.next = null;
+
+        //Actual Reverse
+        Node previous = null;
+        Node current = secondHalfHead;
+        Node next = null;
+
+        while (current != null){
+            next = current.next;
+
+            current.next = previous;
+
+            previous = current;
+
+            current = next;
+        }
+
+
+        // merging
+        Node leftPointer = head;
+        Node rightPointer = previous;
+
+        Node nextL = null;
+        Node nextR = null;
+
+        while (leftPointer != null && rightPointer != null){
+            nextL = leftPointer.next;
+
+            leftPointer.next = rightPointer;
+
+            nextR = rightPointer.next;
+
+            rightPointer.next = nextL;
+
+            // Increment
+            leftPointer = nextL;
+            rightPointer = nextR;
+
+        }
+
+    }
 
     // ------------------------
       public static void main(String[] args) {
@@ -318,10 +370,10 @@ public static Node merge(Node head1, Node head2){
 
           LinkedList ll = new LinkedList();
 
-          ll.addLast(4);
-          ll.addLast(3);
-          ll.addLast(2);
           ll.addLast(1);
+          ll.addLast(2);
+          ll.addLast(3);
+          ll.addLast(4);
 
 
           printLL();
@@ -343,7 +395,16 @@ public static Node merge(Node head1, Node head2){
 
 //          removeNfromEnd(2, head);
 
-           head = mergeSortLL(head);
+//           head = mergeSortLL(head);
+//          printLL();
+
+
+//          -------------------------------------------
+
+          // Zig Zag
+
+          zigZag(head);
+
           printLL();
 
 
