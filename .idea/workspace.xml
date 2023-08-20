@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="MergeSort in LL">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/DoublelyLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ZigZagList.java" afterDir="false" />
+    <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Stacks">
+      <change afterPath="$PROJECT_DIR$/src/Stack/PushToBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/reverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/StackUsingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackUsingArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DoublelyLL">
+  <component name="RunManager" selected="Application.reverseString">
     <configuration name="DoublelyLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.DoublelyLL" />
       <module name="DSA" />
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.QuickSort" />
+    <configuration name="PushToBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.PushToBottom" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="keypadDial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.keypadDial" />
+    <configuration name="StackUsingArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.StackUsingArrayList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.mergeSort" />
+    <configuration name="reverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.reverseString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverseString" />
+        <item itemvalue="Application.PushToBottom" />
+        <item itemvalue="Application.StackUsingArrayList" />
         <item itemvalue="Application.DoublelyLL" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.keypadDial" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691289497584</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Stacks">
+      <created>1692221578142</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692221578142</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,7 +310,8 @@
     <MESSAGE value="Quick Sort" />
     <MESSAGE value="LL1" />
     <MESSAGE value="MergeSort in LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSort in LL" />
+    <MESSAGE value="Stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
