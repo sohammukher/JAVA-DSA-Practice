@@ -16,9 +16,7 @@ public class MaxSubArray {
             if(sum < 0){ // if sum < 0 make sum = 0
                 sum = 0;
             }
-
         }
-
         return maxi;
     }
 
@@ -35,7 +33,6 @@ public class MaxSubArray {
         int max = Integer.MIN_VALUE;
 
         for (int i = 0; i < arr.length; i++) { // Scanning the whole array
-
             int sum = 0;
 
             for (int j = i; j < arr.length; j++) { // Scanning subsequent elements
@@ -46,12 +43,12 @@ public class MaxSubArray {
                     max = sum;
                     System.out.println("MAX "+max);
                 }
-
             }
-
         }
-
         System.out.println("ANS "+max);
-
     }
+
+
+
+
 }

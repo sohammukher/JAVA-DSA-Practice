@@ -26,6 +26,7 @@ public class PrintSubArrays {
                 System.out.println();
 
             }
+            // Giving Space
             System.out.println();
         }
 

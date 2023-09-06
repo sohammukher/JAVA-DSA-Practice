@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f744b066-2b50-429e-8f75-621d067c97b4" name="Changes" comment="Stacks">
-      <change afterPath="$PROJECT_DIR$/src/Stack/PushToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/reverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PracticeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays_Practice/InputArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/StackUsingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/StackUsingArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/MaxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MaxProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/PrintSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/PrintSubArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.reverseString">
-    <configuration name="DoublelyLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DoublelyLL" />
+  <component name="RunManager" selected="Application.InputArrays">
+    <configuration name="InputArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays_Practice.InputArrays" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Arrays_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
+    <configuration name="PrintSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.PrintSubArrays" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputArrays" />
+        <item itemvalue="Application.PrintSubArrays" />
         <item itemvalue="Application.reverseString" />
         <item itemvalue="Application.PushToBottom" />
         <item itemvalue="Application.StackUsingArrayList" />
-        <item itemvalue="Application.DoublelyLL" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>

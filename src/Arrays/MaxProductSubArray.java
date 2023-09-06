@@ -20,8 +20,6 @@ public class MaxProductSubArray {
             }
         }
 
-
-
         return maxProduct;
     }
     public static void main(String[] args) {
